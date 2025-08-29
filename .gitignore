@@ -1,1 +1,12 @@
-./picture
+# Ignore the entire picture directory
+/picture/
+
+# Ignore common image file types anywhere in the repo
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.bmp
+*.tiff
+*.svg
+*.webp
