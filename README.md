@@ -1,36 +1,34 @@
-📌 Project Description (for README.md)
-Quiz Management System (Java Swing + MySQL)
+# 📚 Quiz Management System (Java Swing + MySQL)
 
-This is a Java Swing desktop application designed for managing and conducting quizzes with a simple GUI and MySQL backend.
+A **Java Swing desktop application** designed for managing and conducting quizzes with a simple GUI and MySQL backend.  
 
-Key Features:
+---
 
-User Authentication:
+## ✨ Key Features
 
-LoginForm.java → Handles login and authentication.
+### 🔑 User Authentication
+- **LoginForm.java** → Handles login and authentication.  
+- **Registration.java** → Handles user registration and stores data in MySQL.  
 
-Registration.java → Handles user registration and stores data in MySQL.
+### 📝 Quiz Flow
+- **WelcomeToQuiz.java** → Main quiz selection screen with subject options.  
+- **Java_page1.java** → Quiz page containing multiple-choice questions.  
 
-Quiz Flow:
+### 🗄️ Database Integration
+- Uses **MySQL** as the database.  
+- Dependency: `mysql-connector-java-8.0.29.jar`.  
 
-WelcomeToQuiz.java → Main quiz selection screen with subject options.
+### 🖼️ Image Handling
+- UI images are stored in the `picture/` directory (outside `src/`).  
+- Images are referenced using **absolute paths**.  
 
-Java_page1.java → Quiz page containing multiple-choice questions.
+---
 
-Database Integration:
+## 🛠 Tech Stack
+- ☕ **Java 17**  
+- 🖥️ **Swing (GUI)**  
+- 🗃️ **MySQL + JDBC Connector**  
 
-Uses MySQL as the database.
 
-mysql-connector-java-8.0.29.jar included as dependency.
 
-Image Handling:
 
-UI images are stored in a picture/ directory (outside src) and referenced using absolute paths.
-
-Tech Stack:
-
-Java 17
-
-Swing (GUI)
-
-MySQL + JDBC Connector
